@@ -25,11 +25,11 @@
     }
 
     //Clears the head of everything
-    $.ClearHead = function () {
+    $.clearHead = function () {
         document.head.innerHTML = ""
     }
     //Clears the body of everything
-    $.ClearBody = function () {
+    $.clearBody = function () {
         document.body.innerHTML = ""
     }
     
