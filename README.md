@@ -8,7 +8,7 @@ ADD Library
 Include the library within the head.
 
 ```
-<script src="js/jerryDOM.js"></script>
+<script src="jerryDOM.js"></script>
 ```
 
 ## Purpose of index.html
@@ -16,6 +16,30 @@ Include the library within the head.
 You can use index.html to test some of the library functions
 
 ## Code
+
+**id**
+
+Shortcut for document.getElementById.
+
+```javascript
+$.id('something') //equals document.getElementById
+```
+
+**tag**
+
+Shortcut for document.getElementsByTagName.
+
+```javascript
+$.tag('div') //equals document.getElementsByTagName('div')
+```
+
+**name**
+
+Shortcut for document.getElementsByName.
+
+```javascript
+$.name('fname') //equals document.getElementsByName('fname')
+```
 
 **appendHead**
 
@@ -81,30 +105,6 @@ Clears all elements in the body.
 
 ```javascript
 $.clearBody()
-```
-
-**id**
-
-Shortcut for document.getElementById.
-
-```javascript
-$.id('something') //equals document.getElementById
-```
-
-**tag**
-
-Shortcut for document.getElementsByTagName.
-
-```javascript
-$.tag('div') //equals document.getElementsByTagName('div')
-```
-
-**name**
-
-Shortcut for document.getElementsByName.
-
-```javascript
-$.name('fname') //equals document.getElementsByName('fname')
 ```
 
 **head**
